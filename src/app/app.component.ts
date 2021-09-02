@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'WeatherApp';
+
+  showMenu = " "
+  darkModeActive: any
+
+  toggleMenu(){
+    console.log("toggleMenu");
+  }
+
+  modeToggleSwitch(){
+    console.log("modeToggleSwitch");
+  }
 }
